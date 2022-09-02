@@ -41,11 +41,11 @@
 					<div class="menu_block">
 						<nav class="horizontal-nav full-width horizontalNav-notprocessed">
 							<ul class="sf-menu">
-							<li class="current"><a href="{{route('welcome')}}">Home</a></li>
+							<li ><a href="{{route('welcome')}}">Home</a></li>
                             <li><a href="{{route('dashboard')}}">Dashboard</a></li>
 								<li><a href="{{route('places')}}">Places</a></li>
 								<li><a href="{{route('blog')}}">BLOG</a></li>
-								<li><a href="{{route('hotel')}}">Hotels</a></li>
+								<li class="current"><a href="{{route('hotel')}}">Hotels</a></li>
 							</ul>
 						</nav>
 						<div class="clear"></div>
