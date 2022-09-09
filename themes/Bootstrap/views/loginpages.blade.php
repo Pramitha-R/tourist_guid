@@ -78,6 +78,7 @@
                 			<li><a href="{{route('contact')}}">CONTACTS</a></li>
 							</ul>
 						</nav>
+						
 						<div class="clear"></div>
 					</div>
 				</div>
@@ -89,40 +90,51 @@
 					</h1>
 				</div>
 			</div>
+			
 		</header>
 		<div class="slider_wrapper">
 			<div id="camera_wrap" class="">
 				<div data-src="images/galle.jpg">
 					<div class="caption fadeIn">
+					
+					<div>
+							@if(Session::has('success'))
+							<div class="alert alert-success" role="alert">
+								{{Session::get('success')}}
+							</div>
+							@endif
+							
+					</div>
+					<div class="flash-message"></div>
 						<h2>GALLE</h2>
 						<!-- <div class="price">
 							FROM
 							<span>$1000</span>
 						</div> -->
-						<a href="{{ route('loginTourist') }}">LOG AS TOURIST</a><br>
-						<a href="{{ route('login') }}">LOG AS ADMINS</a>
+						<a class="startUrJourney3" href="{{ route('loginTourist') }}">LOG AS TOURIST</a><br>
+						<a class="startUrJourney2"  href="{{ route('login') }}">LOG AS ADMINS</a>
 					</div>
 				</div>
-				<div data-src="images/ELLA.jpg">
+				<div data-src="https://i0.wp.com/wanderlustgary.com/wp-content/uploads/2020/11/pexels-amith-anuradha-4857903.jpg?fit=1500%2C1000&ssl=1">
 					<div class="caption fadeIn">
 						<h2>ELLA</h2>
 						<!-- <div class="price">
 							FROM
 							<span>$2000</span>
 						</div> -->
-						<a href="{{ route('loginTourist') }}">LOG AS TOURIST</a><br>
-						<a href="{{ route('login') }}">LOG AS ADMINS</a>
+						<a class="startUrJourney3" href="{{ route('loginTourist') }}">LOG AS TOURIST</a><br>
+						<a class="startUrJourney2" href="{{ route('login') }}">LOG AS ADMINS</a>
 					</div>
 				</div>
-				<div data-src="images/sigiriya.jpg">
+				<div data-src="https://cdn-5ff447a4c1ac19100810d94f.closte.com/wp-content/uploads/2021/10/sigiriya-rock-fortres-sri-lanka-mysrilankatravel-2-1.jpg">
 					<div class="caption fadeIn">
 						<h2>SIGIRIYA</h2>
 						<!-- <div class="price">
 							FROM
 							<span>$1600</span>
 						</div> -->
-						<a href="{{ route('loginTourist') }}">LOG AS TOURIST</a><br>
-						<a href="{{ route('login') }}">LOG AS ADMINS</a>
+						<a class="startUrJourney3" href="{{ route('loginTourist') }}">LOG AS TOURIST</a><br>
+						<a class="startUrJourney2" href="{{ route('login') }}">LOG AS ADMINS</a>
 					</div>
 				</div>
 			</div>

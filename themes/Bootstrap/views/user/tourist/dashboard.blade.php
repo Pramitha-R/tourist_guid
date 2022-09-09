@@ -34,7 +34,7 @@ User dashboard>>
 }
 .user-list tbody td .user-link {
     display: block;
-    font-size: 1.25em;
+    font-size: 2em;
     padding-top: 3px;
     margin-left: 60px;
 }
@@ -112,7 +112,7 @@ text-decoration:none;
 }
 
 .order-card i {
-    font-size: 26px;
+    font-size: 50;
 }
 
 .f-left {
@@ -131,7 +131,7 @@ text-decoration:none;
         <a href="{{Route('touristWelcome')}}" >
             <div class="card bg-c-blue order-card">
                 <div class="card-block">
-                    <h6 class="m-b-20">Book Hotel</h6>
+                    <h6 class="m-b-20" >Book Hotel</h6>
                     <h2 class="text-right"><i class="fa fa-cart-plus f-left"></i><span>486</span></h2>
                     <p class="m-b-0">Book your hotel in here<span class="f-right">351</span></p>
                 </div>
