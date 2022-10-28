@@ -62,8 +62,6 @@ input {
 	border-radius: 0 !important;
 	outline: none !important;
 }
-
-
 img {
 	max-width: 100%;
 }
@@ -81,13 +79,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h2 {
-    font-size: 72px;
-    line-height: 30px;
-    color: #f3aa29;
+    font-size: 300px;
+    line-height: 35px;
+    color: #f2b752;
     font-weight: 300;
     margin-bottom: 20px;
+    font-family:Serif;
 }
-
 h3 {
     font-size: 30px;
     line-height: 27px;
@@ -168,6 +166,22 @@ ul.list + a.link1 {
 .low {
     text-transform: none;
 }
+.startUrJourney{
+    position: absolute;
+    left: 520px;
+    top: 120px;
+}
+.startUrJourney2{
+    position: absolute;
+    left: 560px;
+    top: 185px;
+}
+
+.startUrJourney3{
+    position: absolute;
+    left: 560px;
+    top: 120px;
+}
 
 a {
 	text-decoration: none;
@@ -177,6 +191,7 @@ a {
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
 }
+
 
 a:hover {
 	color: #c73430;
@@ -193,7 +208,7 @@ a.btn {
     display: inline-block;
     background-color: #e5e5e5;
     padding: 5px 26px 4px;
-    margin-top: 28px;
+    
     border-radius: 8px;
 }
 
